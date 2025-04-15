@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from './ui/button';
@@ -50,7 +49,11 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="nav-link">
+            <a 
+              key={link.name} 
+              href={link.href} 
+              className="nav-link text-yamuna-orange"
+            >
               {link.name}
             </a>
           ))}
@@ -88,7 +91,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-800 hover:text-yamuna-blue py-2"
+                className="text-yamuna-orange hover:text-yamuna-orange/80 py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}

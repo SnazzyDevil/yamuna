@@ -1,4 +1,3 @@
-
 import { ArrowRight, Clock, MapPin, Phone } from 'lucide-react';
 import { Button } from './ui/button';
 
@@ -52,8 +51,8 @@ const Hero = () => {
           <div className="absolute inset-0 bg-yamuna-blue/20 z-10"></div>
           <div className="h-[50vh] md:h-full w-full">
             <img
-              src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop"
-              alt="Professional plumber working"
+              src="/lovable-uploads/e0e4bd62-4be5-4efb-8feb-04e445ce90fb.png"
+              alt="Water flowing from a tap"
               className="h-full w-full object-cover"
             />
           </div>
