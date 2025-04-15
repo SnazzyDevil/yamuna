@@ -47,7 +47,7 @@ const FAQ = () => {
     },
     {
       question: 'Are your plumbers licensed and insured?',
-      answer: 'Absolutely. All our plumbers are fully licensed, certified, and insured. We maintain comprehensive liability insurance and workers' compensation coverage for your peace of mind.'
+      answer: "Absolutely. All our plumbers are fully licensed, certified, and insured. We maintain comprehensive liability insurance and workers' compensation coverage for your peace of mind."
     },
     {
       question: 'Do you offer any guarantees on your work?',

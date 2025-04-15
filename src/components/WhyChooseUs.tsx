@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
   const reasons = [
     {
       title: '24/7 Emergency Service',
-      description: 'We're available around the clock for emergency plumbing issues to prevent further damage to your property.',
+      description: "We're available around the clock for emergency plumbing issues to prevent further damage to your property.",
       icon: Clock
     },
     {

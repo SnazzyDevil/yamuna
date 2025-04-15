@@ -42,7 +42,7 @@ const Testimonials = () => {
       name: 'John D.',
       location: 'Umhlanga',
       rating: 5,
-      quote: 'I've used Yamuna Plumbing Services multiple times for both my home and business. Their team is always punctual, professional, and provides excellent workmanship.'
+      quote: "I've used Yamuna Plumbing Services multiple times for both my home and business. Their team is always punctual, professional, and provides excellent workmanship."
     },
     {
       name: 'Michael T.',
