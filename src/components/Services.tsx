@@ -1,5 +1,4 @@
-
-import { Wrench, Droplet, SearchCheck, PlugZap, Bath, Building, ScanLine, Pipeline, ShowerHead } from 'lucide-react';
+import { Wrench, Droplet, SearchCheck, PlugZap, Bath, Building, ScanLine, PenLine, ShowerHead } from 'lucide-react';
 import { Button } from './ui/button';
 
 const ServiceCard = ({ title, description, icon: Icon }: { title: string; description: string; icon: any }) => {
@@ -54,7 +53,7 @@ const Services = () => {
     {
       title: 'Pipe Relining',
       description: 'Modern, trenchless pipe repair solutions that save time and prevent property damage.',
-      icon: Pipeline
+      icon: PenLine
     },
     {
       title: 'Fixture Installations',
